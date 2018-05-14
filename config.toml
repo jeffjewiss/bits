@@ -1,0 +1,60 @@
+baseURL = "https://bits.jeffjewiss.com"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-us"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "cocoa"
+author              = "Jeff Jewiss"
+title               = "Bits"
+pygmentsuseclasses  = false
+pluralizelisttitles = true
+googleAnalytics     = false
+
+[permalinks]
+blog  = ":slug/"
+
+[[menu.main]]
+name                   = "Posts"
+weight                 = -120
+identifier             = "blog"
+url                    = "/posts/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -110
+identifier             = "about"
+url                    = "/about/"
+
+[params]
+include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
+latestpostscount       = 10                            # how many posts to display on the home page
+i18n_flags             = false                         # whether to display small country flags for available translations
+author                 = "Jeff Jewiss"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "TIL about programming."
+email                  = "jeff@jeffjewiss.com"
+extracssfiles          = [ "" ]       # In your `static` directory, add/remove files as necessary.
+faviconfile            = ""
+github                 = "//github.com/jeffjewiss"
+instagram              = "//instagram.com/jeffjewiss"
+px500                  = "//500px.com/jeffjewiss"
+lang                   = "en"
+linkedin               = false
+noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+selfintro              = ""                            # appears in the site header when set to a non-empty string
+twitter                = false
+mastodon               = false
+
+highlightjs            = true
+highlightjslanguages   = ["go", "elixir"]                        # additional languages not included in the "common" set
+highlightjsStyle       = "darcula"
+
+piwik                  = false                         # If true, Piwik integration is enabled
+
+gitalk                 = false
+
+avatar                 = "img/jeff.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)

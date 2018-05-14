@@ -1,0 +1,3 @@
+# Bits
+
+TIL about programming.
