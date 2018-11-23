@@ -8,7 +8,7 @@ tags:
 
 Okay, this is a quick one. You’ll probably find yourself jumping in an `iex` REPL quite a bit while working on elixir projects. It can become tedious aliasing your frequently used modules. One way to avoid this is to configure them in an `.iex.exs` file:
 
-```elixir
+```Elixir
 alias MyApp.{
   Repo,
   User,
